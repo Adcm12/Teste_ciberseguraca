@@ -20,7 +20,7 @@ def validar_ipv6(ip_str):
 def enviar_paquete_spoof_ipv6(ipv6_destino, ipv6_falsa):
     # --- MENSAJE PERSONALIZADO ---
     # Crea un payload único que puedas buscar fácilmente en Wireshark.
-    payload_personalizado = "PAQUETE_ADRIAN_2025_TEST"
+    payload_personalizado = "PAQUETE_ADRIAN_2025_TEST2222"
     
     if not validar_ipv6(ipv6_falsa) or not validar_ipv6(ipv6_destino):
         print("Error: Una de las direcciones IP no es válida.")
